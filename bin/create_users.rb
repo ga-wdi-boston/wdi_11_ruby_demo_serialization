@@ -16,11 +16,3 @@ class CreateUsers
   end
 
 end
-
-
-# file_name = "data/users.yaml"
-# File.open(file_name, "w") do |file|
-#   serialized_users = YAML::dump(all_users)
-#   file.write(serialized_users)
-#   puts "Wrote #{user_count} users to #{file_name}"
-# end
